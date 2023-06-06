@@ -17,11 +17,9 @@ const days = parseInt(Math.floor(total_hours / 24));
 
 const seconds = parseInt(total_seconds % 60);
 const minutes = parseInt(total_minutes % 60);
-// const hours = parseInt(total_hours % 24);
+const hours = parseInt(total_hours % 24);
 
-// console.log(`${days} dia(s)`);
-// console.log(`${hours} hora(s)`);
-// console.log(`${minutes} minuto(s)`);
-// console.log(`${seconds} segundo(s)`);
-
-console.log('total_seconds:', seconds, "minutes:", minutes);
+console.log(`${days} dia(s)`);
+console.log(`${hours} hora(s)`);
+console.log(`${minutes} minuto(s)`);
+console.log(`${seconds} segundo(s)`);
