@@ -28,4 +28,6 @@ const data = {
   },
 };
 
-console.log("data:", data?.[firstItem]?.[secondItem]?.[thirdItem]);
+console.log(firstItem, secondItem, thirdItem);
+
+// console.log("data:", data?.[firstItem]?.[secondItem]?.[thirdItem]);
